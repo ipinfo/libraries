@@ -9,3 +9,5 @@ The following are the general guideliens when writing wrappers, contact @aaomidi
 - The format of the language file is included [here](en_US.json)
 - If the target language of the wrapper includes an http client api, the wrapper should make it's best effort to provide a method to filter out traffic that's from a bot.
 - The API wrapper should provide a customizable caching system. This should include a default implementation for the caching system, however the end developer should be able to override that with either no caching or their own customized caching system.
+- The wrapper should provide the developer with any error the API responds with.
+- The wrapper should handle 429 responses differently so the developer knows their API key is rate limited.
