@@ -1,13 +1,100 @@
+# Guidelines 1.0
+
 The following are the general guideliens when writing wrappers, contact @aaomidi for more clarifiations:
 
-- All the information in the [ip full response](https://ipinfo.io/developers/responses#full-response) and the [asn full response](https://ipinfo.io/developers/asn) must be included in the code.
-- They should be accessible using named variables (assuming the language has them).
-- The IP field should preferebly be an internal data structure of the language. That makes the wrapper be more cohesive to the language and allows the developer use functionality exposed by that data structure.
-- The wrapper has the responsibility to include country code (ISO2) -> country name translations. The wrapper should ship with an en_US language file for this purpose and load it by default. It should also include a system to use different language files.
-- The en_US language file will be in JSON.
-- The language file parser in the wrapper should at least have support decoding JSON. However, other formats such as csv and yaml could be supported as well.
-- The format of the language file is included [here](en_US.json)
-- If the target language of the wrapper includes an http client api, the wrapper should make it's best effort to provide a method to filter out traffic that's from a bot.
-- The API wrapper should provide a customizable caching system. This should include a default implementation for the caching system, however the end developer should be able to override that with either no caching or their own customized caching system.
-- The wrapper should provide the developer with any error the API responds with.
-- The wrapper should handle 429 responses differently so the developer knows their API key is rate limited.
+## Programming methodology
+
+### Libraries
+
+If the target language provides an http client API, you should try to preferebly use that. We want to keep the libraries small and to the point.
+
+### User Agent
+
+The wrapper should send all requests with the following user agent format:
+
+```
+IPInfoClient/Vendor/Language/Version
+```
+
+Where the Vendor is the github username (if applicable) of the developer of the wrapper.
+
+For example:
+
+```
+Official library:
+IPInfoClient/IPInfo/GoLang/1.0
+
+User library with a github username:
+IPInfoClient/aaomidi/Java/2.0
+
+User library without a github username: 
+IPInfoClient/not_applicable/Python3/1.0
+```
+
+### Error Communication
+
+HTTP Error 429 tells the developer that their key has run out of its quota.
+
+You need to process and communicate this error in a special payload to the developer. All other errors must also be communicated to the developer.
+
+For example, in Java you can use a custom RuntimeException telling the user their request failed.
+
+## Included responses
+
+All the information in the [ip full response](https://ipinfo.io/developers/responses#full-response) and the [asn full response](https://ipinfo.io/developers/asn) must be included in the code.
+
+All of these objects must have a named access to them. For example in a C-Like language:
+
+`ipresponse.getCountry();`
+
+In a language with structures instead of classes, omitting the getter is recommended:
+
+`ipresponse.Country;`
+
+### Fields
+
+#### IP
+
+In the responses, the IP field should be repressnted using a standard IP definition. Preferrebly this standard definition should be something native to the programming language itself.
+
+#### Country
+
+The country response by the API is the ISO2 code of the country. The API must provide a well documented and resonable method to convert this country code into a country name.
+
+This conversion should extend to other languages as well. A sample lookup dictionary for ISO2 -> Country Name is included [here](en_US.json).
+
+The wrapper must give the developer the ability to provide their own language files.
+
+The english language file must be included and loaded by default.
+
+## Caching
+
+Caching will allow the developer to conserve their API calls if multiple API calls with the same request has been made.
+
+### Location
+
+The caching location should at least include in-memory storage. Other options such as redis could be provided.
+
+### Length
+
+The default caching length should be 1 minute.
+
+## Extra Functionality
+
+### Bot Detection
+
+The library should provide a middleware to detect if the traffic is coming from a suspected bot or a user.
+
+An example of doing this would be to check the user-agent of a request:
+
+``` Javascript
+function isBot(userAgent) {
+    if (userAgent.match(/bot|spider/i)) {
+        return true;
+    }
+    return false;
+}
+
+```
+
+You can develop more sophisticated versions of this but becareful about false positives.
