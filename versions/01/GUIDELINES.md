@@ -1,12 +1,12 @@
 # Guidelines 1.0
 
-The following are the general guideliens when writing wrappers, contact @aaomidi for more clarifiations:
+This document contains guidelines for both official and unofficial wrappers. Contact @aaomidi if you have questions.
 
 ## Programming methodology
 
 ### Libraries
 
-If the target language provides an http client API, you should try to preferebly use that. We want to keep the libraries small and to the point.
+If the target language provides an http client API, you should try to preferably use that. We want to keep the libraries small and to the point.
 
 ### User Agent
 
@@ -55,11 +55,11 @@ In a language with structures instead of classes, omitting the getter is recomme
 
 #### IP
 
-In the responses, the IP field should be repressnted using a standard IP definition. Preferrebly this standard definition should be something native to the programming language itself.
+In the responses, the IP field should be represented using a standard IP definition. Preferably this standard definition should be something native to the programming language itself.
 
 #### Country
 
-The country response by the API is the ISO2 code of the country. The API must provide a well documented and resonable method to convert this country code into a country name.
+The country response by the API is the ISO2 code of the country. The API must provide a well documented and reasonable method to convert this country code into a country name.
 
 This conversion should extend to other languages as well. A sample lookup dictionary for ISO2 -> Country Name is included [here](en_US.json).
 
@@ -97,4 +97,4 @@ function isBot(userAgent) {
 
 ```
 
-You can develop more sophisticated versions of this but becareful about false positives.
+You can develop more sophisticated versions of this but be careful about false positives.
