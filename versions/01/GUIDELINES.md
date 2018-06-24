@@ -13,22 +13,14 @@ If the target language provides an http client API, you should try to preferably
 The wrapper should send all requests with the following user agent format:
 
 ```
-IPInfoClient/Vendor/Language/Version
+IPInfoClient/Language/Version
 ```
 
-Where the Vendor is the github username (if applicable) of the developer of the wrapper.
 
 For example:
 
 ```
-Official library:
-IPInfoClient/IPInfo/GoLang/1.0
-
-User library with a github username:
-IPInfoClient/aaomidi/Java/2.0
-
-User library without a github username: 
-IPInfoClient/not_applicable/Python3/1.0
+IPInfoClient/GoLang/1.0
 ```
 
 ### Error Communication
