@@ -20,7 +20,7 @@ IPInfoClient/Language/Version
 For example:
 
 ```
-IPInfoClient/GoLang/1.0
+IPInfoClient/Go/1.0
 ```
 
 ### Error Communication
