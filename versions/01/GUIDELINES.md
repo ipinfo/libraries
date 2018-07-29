@@ -13,14 +13,14 @@ If the target language provides an http client API, you should try to preferably
 The wrapper should send all requests with the following user agent format:
 
 ```
-IPInfoClient/Language/Version
+IPinfoClient/Language/Version
 ```
 
 
 For example:
 
 ```
-IPInfoClient/Go/1.0
+IPinfoClient/Go/1.0
 ```
 
 ### Error Communication
