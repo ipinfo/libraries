@@ -39,7 +39,7 @@ All of these objects must have a named access to them. For example in a C-Like l
 
 `ipresponse.getCountry();`
 
-In a language with structures instead of classes, omitting the getter is recommended:
+In a language with structures instead of classes, omitting the getter is recommended (unless the language conventions say otherwise):
 
 `ipresponse.Country;`
 
