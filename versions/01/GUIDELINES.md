@@ -25,11 +25,11 @@ IPinfoClient/Go/1.0
 
 ### Error Communication
 
-HTTP Error 429 tells the developer that their key has run out of its quota.
+The error that's most relevant to the developer is when the user has hit it's limits. We are communicated this by the API returning HTTP Error 429. We need to catch this and return this to the user according to the conventions of the language.
 
-You need to process and communicate this error in a special payload to the developer. All other errors must also be communicated to the developer.
+For example, in Go the error would be returned by returning it directly as a result of the call. In Java, the error would be thrown as a custom exception.
 
-    For example, in Java you can use a custom RuntimeException telling the user their request failed.
+If there are other errors returned by the API, pass it up to the caller so they can handle it. Do not silence/ignore these errors.
 
 ## Included responses
 
@@ -47,7 +47,7 @@ In a language with structures instead of classes, omitting the getter is recomme
 
 #### IP
 
-In the responses, the IP field should be represented using a standard IP definition. Preferably this standard definition should be something native to the programming language itself.
+In the responses, the IP field should be preferably represented by an `ip` type in the language the wrapper is being written in. Essentially follow the language conventions on how to represent IPs in memory. 
 
 #### Country
 
