@@ -29,7 +29,7 @@ HTTP Error 429 tells the developer that their key has run out of its quota.
 
 You need to process and communicate this error in a special payload to the developer. All other errors must also be communicated to the developer.
 
-For example, in Java you can use a custom RuntimeException telling the user their request failed.
+    For example, in Java you can use a custom RuntimeException telling the user their request failed.
 
 ## Included responses
 
@@ -65,11 +65,15 @@ Caching will allow the developer to conserve their API calls if multiple API cal
 
 ### Location
 
-The caching location should at least include in-memory storage. Other options such as redis could be provided.
+The caching location should at least include in-memory storage. 
 
 ### Length
 
-The default caching length should be 1 minute.
+The default caching length should be 24 hours per element with a 5000 limit. This should be configurable by the developer.
+
+### Extensibility
+
+To implement caching, use the strategy design pattern. Allow the developer full control in implementing whatever caching strategy they would like. This means that if they want to use carrier pigeons as a caching strategy they should be able to.
 
 ## Extra Functionality
 
