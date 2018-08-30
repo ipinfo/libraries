@@ -79,6 +79,10 @@ The default caching length should be 24 hours per element with a 5000 limit. Thi
 
 To implement caching, use the strategy design pattern. Allow the developer full control in implementing whatever caching strategy they would like. This means that if they want to use carrier pigeons as a caching strategy they should be able to.
 
+## License
+
+All libraries should be released with an [Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/).
+
 ## Extra Functionality
 
 ### Bot Detection
