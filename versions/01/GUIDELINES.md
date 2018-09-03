@@ -31,10 +31,6 @@ For example, in Go the error would be returned by returning it directly as a res
 
 If there are other errors returned by the API, pass it up to the caller so they can handle it. Do not silence/ignore these errors.
 
-### License
-
-The official wrappers for IPinfo should use the [Apache license](https://www.apache.org/licenses/LICENSE-2.0).
-
 ## Included responses
 
 All the information in the [ip full response](https://ipinfo.io/developers/responses#full-response) and the [asn full response](https://ipinfo.io/developers/asn) must be included in the code.
