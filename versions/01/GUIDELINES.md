@@ -81,6 +81,10 @@ All libraries should be released with an [Apache License 2.0](https://choosealic
 
 ## Extra Functionality
 
+### Framework Middleware
+
+Framework-specific libraries should provide middleware that modifies the incoming request and adds an `ipinfo` property. This property value can be the `ipinfo` object returned by the language-specific library for that framework's implementation language. E.g. the `ipinfo-django` library will modify the `request` object so that `request.ipinfo` is the `Details` object returned by the `ipinfo-python` library.
+
 ### Bot Detection
 
 The library should provide a middleware to detect if the traffic is coming from a suspected bot or a user.
