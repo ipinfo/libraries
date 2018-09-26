@@ -8,7 +8,22 @@ Official libraries for common programming languages, like PHP, Python etc.
 
 See [GUIDELINES](GUIDELINES.md) for implementation guidelines.
 
-*Add a table of existing libraries, with links to the repo and the package manager version*
+| Language   | Status       | Link                                                    | Package Manager                                                                          | Published Link                                                                            |
+| ---------- | ------------ | ------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| Javascript | In progress  |                                                         | [npmjs](https://npmjs.com)                                                               |                                                                                           |
+| Java       | Ready        | [ipinfo/java](https://github.com/ipinfo/java)           | [Maven Central](https://search.maven.org/)                                               | [Snapshot](https://oss.sonatype.org/content/repositories/snapshots/io/ipinfo/ipinfo-api/) |
+| Python     | Released     | [ipinfo/python](https://github.com/ipinfo/python)       | [PyPI](https://pypi.org/)                                                                | [PyPI](https://pypi.org/project/ipinfo-wrapper/)                                          |
+| C#         | Proposed     |                                                         | [Nuget](https://www.nuget.org/)                                                          |                                                                                           |
+| PHP        | Proposed     | [ipinfo/php](https://github.com/ipinfo/php)             | [Composer](https://packagist.org/)                                                       |                                                                                           |
+| C++        | None         |                                                         |                                                                                          |                                                                                           |
+| C          | None         |                                                         |                                                                                          |                                                                                           |
+| Swift      | None         |                                                         | [GitHub](https://evgenii.com/blog/distributing-your-library-with-swift-package-manager/) |                                                                                           |
+| Ruby       | Needs update | [ipinfo/ruby](https://github.com/ipinfo/ruby)           | [Ruby Gems](https://rubygems.org/)                                                       |                                                                                           |
+| Go         | In progress  | [ipinfo/go-ipinfo](https://github.com/ipinfo/go-ipinfo) | GitHub                                                                                   |                                                                                           |
+| R          | Proposed     |                                                         | [Packrat](https://rstudio.github.io/packrat/)                                            |                                                                                           |
+| Matlab     | Proposed     |                                                         | [mpm and github](https://github.com/mobeets/mpm)                                         |                                                                                           |
+| Perl       | Needs update | [ipinfo/perl](https://github.com/ipinfo/perl)           | [CPAN](https://pause.perl.org/pause/query)                                               |                                                                                           |
+
 
 ## Framework Libraries
 
