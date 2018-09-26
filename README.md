@@ -34,6 +34,15 @@ doesn't make sense in the core language library. This includes bot filtering (no
 
 The framework libraries should make it *as simple as possible* to use our API. For example, ideally only a few lines of code would be required to get IPinfo data for everyone accessing your Ruby site.
 
+| Framework                      | Status      | Link                                              | Published Links |
+| ------------------------------ | ----------- | ------------------------------------------------- | --------------- |
+| Express  (NodeJS - Javascript) | Proposed    |                                                   |                 |
+| Spring  (Java)                 | Ready       | [ipinfo/spring](https://github.com/ipinfo/spring) |                 |
+| Larvel (PHP)                   | None        |                                                   |                 |
+| Django (Python)                | In progress | [ipinfo/Django](https://github.com/ipinfo/django) |                 |
+| Rails (Ruby)                |   |  |                 |
+
+
 ## README
 
 For many developers our libraries will be their first contact with our service - they'll never have been to our website, or read anything else about us. Therefore it's important to do a good job of explaining the service 
