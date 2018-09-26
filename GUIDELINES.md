@@ -1,6 +1,6 @@
-# Guidelines 1.0
+# Guidelines
 
-This document contains guidelines for both official and unofficial wrappers. Contact @aaomidi if you have questions.
+This document contains guidelines for official IPinfo client libraries. 
 
 ## Programming methodology
 
