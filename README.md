@@ -18,7 +18,7 @@ See [GUIDELINES](GUIDELINES.md) for implementation guidelines.
 | Swift      | None         |                                                         | [GitHub](https://evgenii.com/blog/distributing-your-library-with-swift-package-manager/) |                                                                                           |
 | Ruby       | Needs update | [ipinfo/ruby](https://github.com/ipinfo/ruby)           | [Ruby Gems](https://rubygems.org/)                                                       |                                                                                           |
 | Go         | In progress  | [ipinfo/go-ipinfo](https://github.com/ipinfo/go-ipinfo) | GitHub                                                                                   |                                                                                           |
-| R          | Proposed     |                                                         | [Packrat](https://rstudio.github.io/packrat/)                                            |                                                                                           |
+| R          | Proposed     |                                                         | [CRAN](https://cran.r-project.org/)                                            |                                                                                           |
 | Perl       | Needs update | [ipinfo/perl](https://github.com/ipinfo/perl)           | [CPAN](https://pause.perl.org/pause/query)                                               |                                                                                           |
 
 
