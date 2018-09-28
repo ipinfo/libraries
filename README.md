@@ -18,7 +18,7 @@ See [GUIDELINES](GUIDELINES.md) for implementation guidelines.
 | Ruby       | Needs update | [ipinfo/ruby](https://github.com/ipinfo/ruby)           | [Ruby Gems](https://rubygems.org/)                                                       |                                                                                           |
 | Go         | In progress  | [ipinfo/go-ipinfo](https://github.com/ipinfo/go-ipinfo) | [GitHub](         https://golang.org/doc/code.html#remote)                                                                          |                                                                                           |
 | R          | Proposed     |                                                         | [CRAN](https://cran.r-project.org/)                                            |                                                                                           |
-| Perl       | Needs update | [ipinfo/perl](https://github.com/ipinfo/perl)           | [CPAN](https://pause.perl.org/pause/query)  [Geo-IPinfo](https://metacpan.org/release/Geo-IPinfo) |                                                                                           |
+| Perl       | Needs update | [ipinfo/perl](https://github.com/ipinfo/perl)           | [CPAN](https://pause.perl.org/pause/query) |  [Geo-IPinfo](https://metacpan.org/release/Geo-IPinfo) |                                                                                           |
 
 
 ## Framework Libraries
