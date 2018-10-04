@@ -1,4 +1,4 @@
-# <img src="https://ipinfo.io/static/ipinfo-small.svg" alt="IPinfo" width="24"/> IPinfo $LANGUAGE Client Library
+# [<img src="https://ipinfo.io/static/ipinfo-small.svg" alt="IPinfo" width="24"/>](https://ipinfo.io/) IPinfo $LANGUAGE Client Library
 
 This is the official $LANGUAGE client library for the [IPinfo.io](https://ipinfo.io) IP address API, allowing you to lookup your own IP address, or get any of the following details for an IP:
  - IP geolocation (city, region, country, postal code, latitude and longitude)
