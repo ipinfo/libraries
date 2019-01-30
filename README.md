@@ -18,7 +18,7 @@ See [GUIDELINES](GUIDELINES.md) for implementation guidelines.
 | Ruby       | Released | [ipinfo/ruby](https://github.com/ipinfo/ruby)           | [Ruby Gems](https://rubygems.org/)                                                       |[IPinfo](https://rubygems.org/gems/IPinfo)                                                                                           |
 | Go         | In progress  | [ipinfo/go-ipinfo](https://github.com/ipinfo/go-ipinfo) | [GitHub](         https://golang.org/doc/code.html#remote)                                                                          |                                                                                           |
 | R          | Proposed     |                                                         | [CRAN](https://cran.r-project.org/)                                            |                                                                                           |
-| Perl       | In progress | [ipinfo/perl](https://github.com/ipinfo/perl)           | [CPAN](https://pause.perl.org/pause/query) |  [Geo-IPinfo](https://metacpan.org/release/Geo-IPinfo) |                                                                                           |
+| Perl       | Released | [ipinfo/perl](https://github.com/ipinfo/perl)           | [CPAN](https://pause.perl.org/pause/query) |  [Geo-IPinfo](https://metacpan.org/release/Geo-IPinfo) |                                                                                           |
 
 
 ## Framework Libraries
@@ -36,7 +36,7 @@ The framework libraries should make it *as simple as possible* to use our API. F
 | Spring  (Java)                 | Ready       | [ipinfo/spring](https://github.com/ipinfo/spring) |                 |
 | Laravel (PHP)                   | Released        | [ipinfo/Laravel](https://github.com/ipinfo/laravel)                                                  |[ipinfo/ipinfolaravel](https://packagist.org/packages/ipinfo/ipinfolaravel)                 |
 | Django (Python)                | Released | [ipinfo/Django](https://github.com/ipinfo/django) |[ipinfo-django](https://pypi.org/project/ipinfo-django/)                 |
-| Rails (Ruby)                |   |  |                 |
+| Rails (Ruby)                | Released  | [ipinfo/Rails](https://github.com/ipinfo/rails) | [ipinfo-rails](https://rubygems.org/gems/ipinfo-rails) |
 
 
 ## README
