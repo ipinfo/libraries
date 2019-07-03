@@ -1,6 +1,6 @@
 # Guidelines
 
-This document contains guidelines for official IPinfo client libraries. 
+This document contains guidelines for official IPinfo client libraries.
 
 ## Programming methodology
 
@@ -16,7 +16,6 @@ The wrapper should send all requests with the following user agent format:
 IPinfoClient/Language/Version
 ```
 
-
 For example:
 
 ```
@@ -25,17 +24,17 @@ IPinfoClient/Go/1.0
 
 ### Error Communication
 
-The error that's most relevant to the developer is when the user has hit it's limits. We are communicated this by the API returning HTTP Error 429. We need to catch this and return this to the user according to the conventions of the language.
+The error that's most relevant to the developer is when the user has hit it's limits. We communicate this by the API returning HTTP Error 429. We need to catch this and return this to the user according to the conventions of the language.
 
-For example, in Go the error would be returned by returning it directly as a result of the call. In Java, the error would be thrown as a custom exception.
+For example, in Go the error would be returned directly as a result of the call. In Java, the error would be thrown as a custom exception.
 
 If there are other errors returned by the API, pass it up to the caller so they can handle it. Do not silence/ignore these errors.
 
 ## Included responses
 
-All the information in the [ip full response](https://ipinfo.io/developers/responses#full-response) and the [asn full response](https://ipinfo.io/developers/asn) must be included in the code.
+All information in the [IP full response](https://ipinfo.io/developers/responses#full-response) and the [ASN full response](https://ipinfo.io/developers/asn) must be included in the code.
 
-All of these objects must have a named access to them. For example in a C-Like language:
+All of these objects must have a named access to them. For example in a C-like language:
 
 `ipresponse.getCountry();`
 
@@ -47,7 +46,7 @@ In a language with structures instead of classes, omitting the getter is recomme
 
 #### IP
 
-In the responses, the IP field should be preferably represented by an `ip` type in the language the wrapper is being written in. Essentially follow the language conventions on how to represent IPs in memory. 
+In the responses, the IP field should be preferably represented by an `ip` type in the language the wrapper is being written in. Essentially follow the language conventions on how to represent IPs in memory.
 
 #### Country
 
@@ -65,7 +64,7 @@ Caching will allow the developer to conserve their API calls if multiple API cal
 
 ### Location
 
-The caching location should at least include in-memory storage. 
+The caching location should at least include in-memory storage.
 
 ### Length
 
@@ -91,14 +90,13 @@ The library should provide a middleware to detect if the traffic is coming from 
 
 An example of doing this would be to check the user-agent of a request:
 
-``` Javascript
+```js
 function isBot(userAgent) {
-    if (userAgent.match(/bot|spider/i)) {
+    if (userAgent.match(/bot|spider/i))
         return true;
-    }
+
     return false;
 }
-
 ```
 
 You can develop more sophisticated versions of this but be careful about false positives.

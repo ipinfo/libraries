@@ -1,26 +1,27 @@
 # [<img src="https://ipinfo.io/static/ipinfo-small.svg" alt="IPinfo" width="24"/>](https://ipinfo.io/) IPinfo $LANGUAGE Client Library
 
 This is the official $LANGUAGE client library for the [IPinfo.io](https://ipinfo.io) IP address API, allowing you to lookup your own IP address, or get any of the following details for an IP:
- - IP geolocation (city, region, country, postal code, latitude and longitude)
- - ASN details (ISP or network operator, associated domain name, and type, such as business, hosting or company)
- - Company details (the name and domain of the business that uses the IP address)
- - Carrier details (the name of the mobile carrier and MNC and MCC for that carrier if the IP is used exclusively for mobile traffic)
 
+- IP geolocation (city, region, country, postal code, latitude and longitude)
+- ASN details (ISP or network operator, associated domain name, and type, such as business, hosting or company)
+- Company details (the name and domain of the business that uses the IP address)
+- Carrier details (the name of the mobile carrier and MNC and MCC for that carrier if the IP is used exclusively for mobile traffic)
 
+## Getting Started
 
-### Getting Started
-
-You'll need an IPinfo API access token, which you can get by singing up for a free account at [https://ipinfo.io/signup](https://ipinfo.io/signup?ref=lib-$LANGUAGE). 
+You'll need an IPinfo API access token, which you can get by singing up for a free account at [https://ipinfo.io/signup](https://ipinfo.io/signup?ref=lib-$LANGUAGE).
 
 The free plan is limited to 1,000 requests a day, and doesn't include some of the data fields such as IP type and company data. To enable all the data fields and additional request volumes see [https://ipinfo.io/pricing](https://ipinfo.io/pricing?ref=lib-$LANGUAGE)
 
-#### Installation
+### Installation
 
 *Installation instructions, eg:*
 
-```npm install ipinfo```
+```
+npm install ipinfo
+```
 
-#### Quick Start
+### Quick Start
 
 *Include a simple example of initializing it with an access token, and 2 quick examples, something like...*
 
