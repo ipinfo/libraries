@@ -10,16 +10,16 @@ See [GUIDELINES](GUIDELINES.md) for implementation guidelines.
 
 | Language   | Status       | Link                                                    | Package Manager                                                                          | Published Link                                                                            |
 | ---------- | ------------ | ------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| Javascript | In progress  |                                                         | [npmjs](https://npmjs.com)                                                               |                                                                                           |
+| Javascript (Node) | In progress  | [ipinfo/node](https://github.com/ipinfo/node)    | [npmjs](https://npmjs.com)                                                               |                                                                                           |
 | Java       | Ready        | [ipinfo/java](https://github.com/ipinfo/java)           | [Maven Central](https://search.maven.org/)                                               | [Snapshot](https://oss.sonatype.org/content/repositories/snapshots/io/ipinfo/ipinfo-api/) |
 | Python     | Released     | [ipinfo/python](https://github.com/ipinfo/python)       | [PyPI](https://pypi.org/)                                                                | [ipinfo](https://pypi.org/project/ipinfo/)                                          |
 | C#         | Proposed     |                                                         | [Nuget](https://www.nuget.org/)                                                          |                                                                                           |
-| PHP        | Released     | [ipinfo/php](https://github.com/ipinfo/php)             | [Composer](https://packagist.org/)                                                       |[ipinfo/ipinfo](https://packagist.org/packages/ipinfo/ipinfo)                                                                                           |                                                   |                                                         
+| PHP        | Released     | [ipinfo/php](https://github.com/ipinfo/php)             | [Composer](https://packagist.org/)                                                       |[ipinfo/ipinfo](https://packagist.org/packages/ipinfo/ipinfo)                                                                                           |                                                   |
 | Ruby       | Released | [ipinfo/ruby](https://github.com/ipinfo/ruby)           | [Ruby Gems](https://rubygems.org/)                                                       |[IPinfo](https://rubygems.org/gems/IPinfo)                                                                                           |
-| Go         | In progress  | [ipinfo/go-ipinfo](https://github.com/ipinfo/go-ipinfo) | [GitHub](         https://golang.org/doc/code.html#remote)                                                                          |                                                                                           |
+| Go         | In progress  | [ipinfo/go](https://github.com/ipinfo/go) | [GitHub](         https://golang.org/doc/code.html#remote)                                                                          |                                                                                           |
 | R          | Proposed     |                                                         | [CRAN](https://cran.r-project.org/)                                            |                                                                                           |
 | Perl       | Released | [ipinfo/perl](https://github.com/ipinfo/perl)           | [CPAN](https://pause.perl.org/pause/query) |  [Geo-IPinfo](https://metacpan.org/release/Geo-IPinfo) |                                                                                           |
-
+| Erlang    | In progress | [ipinfo/erlang](https://github.com/ipinfo/erlang)       |                           |                                   |
 
 ## Framework Libraries
 
@@ -32,12 +32,11 @@ The framework libraries should make it *as simple as possible* to use our API. F
 
 | Framework                      | Status      | Link                                              | Published Links |
 | ------------------------------ | ----------- | ------------------------------------------------- | --------------- |
-| Express  (NodeJS - Javascript) | Proposed    |                                                   |                 |
+| Express  (NodeJS) | Proposed    |                                                   |                 |
 | Spring  (Java)                 | Ready       | [ipinfo/spring](https://github.com/ipinfo/spring) |                 |
-| Laravel (PHP)                   | Released        | [ipinfo/Laravel](https://github.com/ipinfo/laravel)                                                  |[ipinfo/ipinfolaravel](https://packagist.org/packages/ipinfo/ipinfolaravel)                 |
-| Django (Python)                | Released | [ipinfo/Django](https://github.com/ipinfo/django) |[ipinfo-django](https://pypi.org/project/ipinfo-django/)                 |
-| Rails (Ruby)                | Released  | [ipinfo/Rails](https://github.com/ipinfo/rails) | [ipinfo-rails](https://rubygems.org/gems/ipinfo-rails) |
-
+| Laravel (PHP)                   | Released        | [ipinfo/laravel](https://github.com/ipinfo/laravel)                                                  |[ipinfo/ipinfolaravel](https://packagist.org/packages/ipinfo/ipinfolaravel)                 |
+| Django (Python)                | Released | [ipinfo/django](https://github.com/ipinfo/django) |[ipinfo-django](https://pypi.org/project/ipinfo-django/)                 |
+| Rails (Ruby)                | Released  | [ipinfo/rails](https://github.com/ipinfo/rails) | [ipinfo-rails](https://rubygems.org/gems/ipinfo-rails) |
 
 ## README
 
