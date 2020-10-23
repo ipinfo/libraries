@@ -52,8 +52,8 @@ data for everyone accessing your Ruby site.
 README
 ------
 
-For many developers our libraries will be their first contact with our service
-- they'll never have been to our website, or read anything else about us.
+For many developers our libraries will be their first contact with our service -
+they'll never have been to our website, or read anything else about us.
 Therefore it's important to do a good job of explaining the service to them in
 the library documentation. See our standard [HEADER](README_HEADER.md) and
 [FOOTER](README_FOOTER.md) that should be added to every README.
