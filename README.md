@@ -10,19 +10,19 @@ Official libraries for common programming languages, like PHP, Python etc.
 
 See [GUIDELINES](GUIDELINES.md) for implementation guidelines.
 
-| Language          | Status      | Link                                              | Package Manager                                            | Published Link                                                                            |
-|-------------------|-------------|---------------------------------------------------|------------------------------------------------------------|-------------------------------------------------------------------------------------------|
-| Javascript (Node) | In progress | [ipinfo/node](https://github.com/ipinfo/node)     | [npmjs](https://npmjs.com)                                 |                                                                                           |
-| Java              | Ready       | [ipinfo/java](https://github.com/ipinfo/java)     | [Maven Central](https://search.maven.org/)                 | [Snapshot](https://oss.sonatype.org/content/repositories/snapshots/io/ipinfo/ipinfo-api/) |
-| Python            | Released    | [ipinfo/python](https://github.com/ipinfo/python) | [PyPI](https://pypi.org/)                                  | [ipinfo](https://pypi.org/project/ipinfo/)                                                |
-| C#                | Proposed    |                                                   | [Nuget](https://www.nuget.org/)                            |                                                                                           |
-| PHP               | Released    | [ipinfo/php](https://github.com/ipinfo/php)       | [Composer](https://packagist.org/)                         | [ipinfo/ipinfo](https://packagist.org/packages/ipinfo/ipinfo)                             |
-| Ruby              | Released    | [ipinfo/ruby](https://github.com/ipinfo/ruby)     | [Ruby Gems](https://rubygems.org/)                         | [IPinfo](https://rubygems.org/gems/IPinfo)                                                |
-| Go                | Released    | [ipinfo/go](https://github.com/ipinfo/go)         | [GitHub](https://golang.org/doc/code.html#ImportingRemote) |                                                                                           |
-| R                 | Proposed    |                                                   | [CRAN](https://cran.r-project.org/)                        |                                                                                           |
-| Perl              | Released    | [ipinfo/perl](https://github.com/ipinfo/perl)     | [CPAN](https://pause.perl.org/pause/query)                 | [Geo-IPinfo](https://metacpan.org/release/Geo-IPinfo)                                     |
-| Erlang            | Proposed    | [ipinfo/erlang](https://github.com/ipinfo/erlang) |                                                            |                                                                                           |
-| Rust              | Released    | [ipinfo/rust](https://github.com/ipinfo/rust)     | [crates.io](https://crates.io)                             | [ipinfo](https://crates.io/crates/ipinfo)                                                 |
+| Language          | Status   | Link                                              | Package Manager                                            | Published Link                                                                            |
+|-------------------|----------|---------------------------------------------------|------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| Javascript (Node) | Released | [ipinfo/node](https://github.com/ipinfo/node)     | [npmjs](https://npmjs.com)                                 | [node-ipinfo](https://npmjs.com/package/node-ipinfo)                                      |
+| Java              | Ready    | [ipinfo/java](https://github.com/ipinfo/java)     | [Maven Central](https://search.maven.org/)                 | [Snapshot](https://oss.sonatype.org/content/repositories/snapshots/io/ipinfo/ipinfo-api/) |
+| Python            | Released | [ipinfo/python](https://github.com/ipinfo/python) | [PyPI](https://pypi.org/)                                  | [ipinfo](https://pypi.org/project/ipinfo/)                                                |
+| C#                | Proposed |                                                   | [Nuget](https://www.nuget.org/)                            |                                                                                           |
+| PHP               | Released | [ipinfo/php](https://github.com/ipinfo/php)       | [Composer](https://packagist.org/)                         | [ipinfo/ipinfo](https://packagist.org/packages/ipinfo/ipinfo)                             |
+| Ruby              | Released | [ipinfo/ruby](https://github.com/ipinfo/ruby)     | [Ruby Gems](https://rubygems.org/)                         | [IPinfo](https://rubygems.org/gems/IPinfo)                                                |
+| Go                | Released | [ipinfo/go](https://github.com/ipinfo/go)         | [GitHub](https://golang.org/doc/code.html#ImportingRemote) |                                                                                           |
+| R                 | Proposed |                                                   | [CRAN](https://cran.r-project.org/)                        |                                                                                           |
+| Perl              | Released | [ipinfo/perl](https://github.com/ipinfo/perl)     | [CPAN](https://pause.perl.org/pause/query)                 | [Geo-IPinfo](https://metacpan.org/release/Geo-IPinfo)                                     |
+| Erlang            | Proposed | [ipinfo/erlang](https://github.com/ipinfo/erlang) |                                                            |                                                                                           |
+| Rust              | Released | [ipinfo/rust](https://github.com/ipinfo/rust)     | [crates.io](https://crates.io)                             | [ipinfo](https://crates.io/crates/ipinfo)                                                 |
 
 Framework Libraries
 -------------------
