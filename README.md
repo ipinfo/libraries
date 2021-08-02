@@ -13,7 +13,7 @@ See [GUIDELINES](GUIDELINES.md) for implementation guidelines.
 | Language          | Status   | Link                                              | Package Manager                                            | Published Link                                                                            |
 |-------------------|----------|---------------------------------------------------|------------------------------------------------------------|-------------------------------------------------------------------------------------------|
 | Javascript (Node) | Released | [ipinfo/node](https://github.com/ipinfo/node)     | [npmjs](https://npmjs.com)                                 | [node-ipinfo](https://npmjs.com/package/node-ipinfo)                                      |
-| Java              | Ready    | [ipinfo/java](https://github.com/ipinfo/java)     | [Maven Central](https://search.maven.org/)                 | [Snapshot](https://oss.sonatype.org/content/repositories/snapshots/io/ipinfo/ipinfo-api/) |
+| Java              | Released | [ipinfo/java](https://github.com/ipinfo/java)     | [Maven Central](https://search.maven.org/)                 | [ipinfo-api](https://mvnrepository.com/artifact/io.ipinfo/ipinfo-api) |
 | Python            | Released | [ipinfo/python](https://github.com/ipinfo/python) | [PyPI](https://pypi.org/)                                  | [ipinfo](https://pypi.org/project/ipinfo/)                                                |
 | C#                | Released | [ipinfo/csharp](https://github.com/ipinfo/csharp) | [Nuget](https://www.nuget.org/)                            | [IpInfo](https://www.nuget.org/packages/IpInfo/)                                   |
 | PHP               | Released | [ipinfo/php](https://github.com/ipinfo/php)       | [Composer](https://packagist.org/)                         | [ipinfo/ipinfo](https://packagist.org/packages/ipinfo/ipinfo)                             |
@@ -44,7 +44,7 @@ data for everyone accessing your Ruby site.
 | Framework        | Status   | Link                                                | Published Links                                                             |
 |------------------|----------|-----------------------------------------------------|-----------------------------------------------------------------------------|
 | Express (NodeJS) | Proposed |                                                     |                                                                             |
-| Spring (Java)    | Ready    | [ipinfo/spring](https://github.com/ipinfo/spring)   |                                                                             |
+| Spring (Java)    | Released | [ipinfo/spring](https://github.com/ipinfo/spring)   | [ipinfo-spring](https://mvnrepository.com/artifact/io.ipinfo/ipinfo-spring)  |
 | Laravel (PHP)    | Released | [ipinfo/laravel](https://github.com/ipinfo/laravel) | [ipinfo/ipinfolaravel](https://packagist.org/packages/ipinfo/ipinfolaravel) |
 | Django (Python)  | Released | [ipinfo/django](https://github.com/ipinfo/django)   | [ipinfo-django](https://pypi.org/project/ipinfo-django/)                    |
 | Rails (Ruby)     | Released | [ipinfo/rails](https://github.com/ipinfo/rails)     | [ipinfo-rails](https://rubygems.org/gems/ipinfo-rails)                      |
