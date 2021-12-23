@@ -41,13 +41,13 @@ The framework libraries should make it *as simple as possible* to use our API.
 For example, ideally only a few lines of code would be required to get IPinfo
 data for everyone accessing your Ruby site.
 
-| Framework        | Status   | Link                                                | Published Links                                                             |
-|------------------|----------|-----------------------------------------------------|-----------------------------------------------------------------------------|
-| Express (NodeJS) | Proposed |                                                     |                                                                             |
-| Spring (Java)    | Released | [ipinfo/spring](https://github.com/ipinfo/spring)   | [ipinfo-spring](https://mvnrepository.com/artifact/io.ipinfo/ipinfo-spring)  |
-| Laravel (PHP)    | Released | [ipinfo/laravel](https://github.com/ipinfo/laravel) | [ipinfo/ipinfolaravel](https://packagist.org/packages/ipinfo/ipinfolaravel) |
-| Django (Python)  | Released | [ipinfo/django](https://github.com/ipinfo/django)   | [ipinfo-django](https://pypi.org/project/ipinfo-django/)                    |
-| Rails (Ruby)     | Released | [ipinfo/rails](https://github.com/ipinfo/rails)     | [ipinfo-rails](https://rubygems.org/gems/ipinfo-rails)                      |
+| Framework        | Status   | Link                                                     | Published Links                                                             |
+|------------------|----------|----------------------------------------------------------|-----------------------------------------------------------------------------|
+| Express (NodeJS) | Released | [ipinfo/node-express](https://github.com/ipinfo/express) | [ipinfo-express](https://www.npmjs.com/package/ipinfo-express)              |
+| Spring (Java)    | Released | [ipinfo/spring](https://github.com/ipinfo/spring)        | [ipinfo-spring](https://mvnrepository.com/artifact/io.ipinfo/ipinfo-spring) |
+| Laravel (PHP)    | Released | [ipinfo/laravel](https://github.com/ipinfo/laravel)      | [ipinfo/ipinfolaravel](https://packagist.org/packages/ipinfo/ipinfolaravel) |
+| Django (Python)  | Released | [ipinfo/django](https://github.com/ipinfo/django)        | [ipinfo-django](https://pypi.org/project/ipinfo-django/)                    |
+| Rails (Ruby)     | Released | [ipinfo/rails](https://github.com/ipinfo/rails)          | [ipinfo-rails](https://rubygems.org/gems/ipinfo-rails)                      |
 
 README
 ------
