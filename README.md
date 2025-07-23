@@ -23,6 +23,7 @@ See [GUIDELINES](GUIDELINES.md) for implementation guidelines.
 | Perl              | Released | [ipinfo/perl](https://github.com/ipinfo/perl)     | [CPAN](https://pause.perl.org/pause/query)                 | [Geo-IPinfo](https://metacpan.org/release/Geo-IPinfo)                                     |
 | Erlang            | Released | [ipinfo/erlang](https://github.com/ipinfo/erlang) | [hex.pm](https://hex.pm)                                   | [ipinfo](https://hex.pm/packages/ipinfo)                                                                                          |
 | Rust              | Released | [ipinfo/rust](https://github.com/ipinfo/rust)     | [crates.io](https://crates.io)                             | [ipinfo](https://crates.io/crates/ipinfo)                                                 |
+| Swift              | Released | [ipinfo/swift](https://github.com/ipinfo/swift)     | Swift Package Manager                            |                                               |
 
 Framework Libraries
 -------------------
